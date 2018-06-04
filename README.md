@@ -1,13 +1,4 @@
----
-title: 'The Keep - Digital Preservation Image Resizing'
-version: 0.1
-date: 04/06/2017
-author: Steven Mileham
-output: word_document
----
-# The Keep --- Digital Preservation Image Resizing
-
-[TOC]
+# The Keep - Digital Preservation Image Resizing
 
 ## Background
 
@@ -33,7 +24,7 @@ First the script takes the original image (normally a TIFF, recreated here as a 
 magick convert sxms169_1_2_5-19.tif[0] -resize 669x502 .\sxms169_1_2_5-19.jpg
 ```
 
-![Original Image](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/sxms169_1_2_5-19.jpg)
+![Original Image](./2017-11-06/sxms169_1_2_5-19.jpg)
 
 ## Step 2: Enlarge and blur
 
