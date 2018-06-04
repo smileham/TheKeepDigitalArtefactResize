@@ -2,7 +2,7 @@
 
 ## Background
 
-Whilst discussing cloud storage for digital artefacts with the technologist from [The Keep](http://www.thekeep.info/), Adam Harwood mentioned their current workflow for preserving a number of artefacts.
+Whilst discussing cloud storage for digital artefacts with the technologist from [The Keep](http://www.thekeep.info/), they mentioned their current workflow for preserving a number of artefacts.
 
 > The German and Jewish collections held by Special Collections at The Keep reflect the study of political, social, literary and intellectual German-Jewish history, in particular the history of Jewish refugees and their families to the United Kingdom during and after the Second World War.
 >
@@ -35,7 +35,7 @@ magick convert sxms169_1_2_5-19.tif[0] -sample 5% -resize 1000% \
     -resize 669x502 .\sxms169_1_2_5-19-blur.jpg
 ```
 
-![Original Image - Blurred](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/sxms169_1_2_5-19-blur.jpg)
+![Original Image - Blurred](./2017-11-06/sxms169_1_2_5-19-blur.jpg)
 
 ## Step 3: Trim
 
@@ -46,7 +46,7 @@ magick convert sxms169_1_2_5-19.tif[0] -sample 5% -resize 1000% -fuzz 15% \
     -trim -resize 669x502 .\sxms169_1_2_5-19-blur-trim.jpg
 ```
 
-![Original Image - Blurred & Trimmed](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/sxms169_1_2_5-19-blur-trim.jpg)
+![Original Image - Blurred & Trimmed](./2017-11-06/sxms169_1_2_5-19-blur-trim.jpg)
 
 ## Step 4: Slice
 
@@ -57,7 +57,7 @@ magick convert sxms169_1_2_5-19.tif[0] -sample 5% -resize 1000% -fuzz 15% -trim 
     +repage -crop 100x -resize 30x502 ./scratch/sxms169_1_2_5-19-blur-trim_%d.jpg
 ```
 
-![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_0.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_1.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_2.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_3.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_4.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_5.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_6.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_7.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_8.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_9.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_10.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_11.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_12.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_13.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_14.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_15.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_16.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_17.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_18.jpg)
+![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_0.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_1.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_2.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_3.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_4.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_5.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_6.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_7.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_8.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_9.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_10.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_11.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_12.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_13.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_14.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_15.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_16.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_17.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim_18.jpg)
 
 ## Step 5: Re-trim
 
@@ -69,7 +69,7 @@ magick convert sxms169_1_2_5-19.tif[0] -sample 5% -resize 1000% -fuzz 15% -trim 
     -trim ./scratch/sxms169_1_2_5-19-blur-trim-strip_%d.jpg
 ```
 
-![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_0.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_1.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_2.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_3.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_4.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_5.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_6.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_7.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_8.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_9.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_10.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_11.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_12.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_13.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_14.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_15.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_16.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_17.jpg) ![](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_18.jpg)
+![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_0.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_1.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_2.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_3.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_4.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_5.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_6.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_7.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_8.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_9.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_10.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_11.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_12.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_13.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_14.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_15.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_16.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_17.jpg) ![](./2017-11-06/scratch/sxms169_1_2_5-19-blur-trim-strip_18.jpg)
 
 ## Step 6: Maths
 
@@ -89,7 +89,7 @@ magick convert sxms169_1_2_5-19.tif[0] -sample 5% -resize 1000% \
     -crop 1300x1672+1096+529 -resize 10000x502 .\sxms169_1_2_5-19-blur-trim-crop.jpg
 ```
 
-![Original Image - Blurred & Cropped](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/sxms169_1_2_5-19-blur-trim-crop.jpg)
+![Original Image - Blurred & Cropped](./2017-11-06/sxms169_1_2_5-19-blur-trim-crop.jpg)
 
 ## Step 7: Another Trim
 
@@ -111,7 +111,7 @@ magick convert sxms169_1_2_5-19.tif[0] -crop 2546x3444+2144+1010 \
     .\sxms169_1_2_5-19-crop.jpg
 ```
 
-![Original Image - Cropped](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/sxms169_1_2_5-19-crop.jpg)
+![Original Image - Cropped](./2017-11-06/sxms169_1_2_5-19-crop.jpg)
 
 ## All together now
 
@@ -126,4 +126,4 @@ $output = magick convert sxms169_1_2_5-19.tif[0] -quiet -sample 5% \
 
 This command produces the blurred file for future trimming, the original trimmed geometry and the trimmed version of each of the slices of the image.
 
-The final version (v6) of the script can be found here: [cropImages.v6.ps1](http://users.sussex.ac.uk/~sm826/Journal/2017-11-06/cropImages.v6.ps1)
+The final version (v6) of the script can be found here: [cropImages.v6.ps1](./Journal/2017-11-06/cropImages.v6.ps1)
