@@ -126,4 +126,6 @@ $output = magick convert sxms169_1_2_5-19.tif[0] -quiet -sample 5% \
 
 This command produces the blurred file for future trimming, the original trimmed geometry and the trimmed version of each of the slices of the image.
 
-The final version (v6) of the script can be found here: [cropImages.v6.ps1](./2017-11-06/cropImages.v6.ps1)
+An early version (v6) of the script can be found here: [cropImages.v6.ps1](./2017-11-06/cropImages.v6.ps1)
+
+**The final version (v9) of the script can be found here: [cropImages.v6.ps1](./cropImages.v9.ps1)**
