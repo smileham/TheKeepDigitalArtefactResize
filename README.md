@@ -128,4 +128,4 @@ This command produces the blurred file for future trimming, the original trimmed
 
 An early version (v6) of the script can be found here: [cropImages.v6.ps1](./2017-11-06/cropImages.v6.ps1)
 
-**The final version (v9) of the script can be found here: [cropImages.v6.ps1](./cropImages.v9.ps1)**
+**The final version (v9) of the script can be found here: [cropImages.ps1](./cropImages.ps1)**
